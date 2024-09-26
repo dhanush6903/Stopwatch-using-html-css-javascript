@@ -1,0 +1,60 @@
+#css
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(SW.jpg);
+}
+#myH1{
+    font-size: 4rem;
+    font-family: "Arial",sans-serif;
+    color: grey;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    border: 3px ;
+    border-radius: 50px;
+    background-color: rgb(103, 100, 100);
+}
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 8%, 20%);
+    text-shadow: 2px 2px 2px hsl(0, 0%, 0.75);
+    margin-bottom: 2px;
+}
+#controls{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+#startBtn{
+    background-color: aliceblue;
+}
+#startBtn:hover{
+    background-color: rgb(92, 91, 97);
+}
+#stopBtn{
+    background-color: aliceblue;
+}
+#stopBtn:hover{
+    background-color: rgb(92, 91, 97);
+}
+#resetBtn{
+    background-color: aliceblue;
+}
+#resetBtn:hover{
+    background-color: rgb(92, 91, 97);
+}
